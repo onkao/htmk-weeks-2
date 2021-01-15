@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background:rgb(22, 15, 15);
+            width:40%;
+            padding:30px;
+            margin:auto;
+        }
+        input:not([type="checkbox"]),select{
+                width:100%;
+                outline:none;
+                border:none;
+                border-bottom:1px solid white;
+                background:rgb(39, 29, 29);
+                background:none;
+
+        }
+        h1{
+            text-align: center;
+        }
+        select,h1{
+            color:white;
+        }
+        option{
+            background:black;
+        }
+        label{
+            color:white;
+        }
+        input[type="submit"]{
+            background:blue;
+            border:1px solid ;
+            border:none;
+            outline:none;
+            color:white;
+            border-radius: 40px;
+            padding:10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h1>Dark Resgistration</h1>
+            <input type="text" placeholder="Full name(required)"><br>
+        </br>
+            <input type="email" placeholder="Email(required)"><br>
+            <br>
+            <input type="number" placeholder="Phone number"><br>
+    </br>
+            <input type="password" placeholder="Password(at least 6 characters)"><br>
+</br>
+            <input type="number" placeholder="Score(0-100)"><br>
+</br>
+            <select name="dog" id="op">
+                <option value="Course">Course type</option>
+                <option value="sna">SNA</option>
+                <option value="wep">WEP</option>
+            </select><br>
+        </br>
+            <input type="checkbox">
+            <label for="pnc">I agree to the PNC rule</label><br>
+    </br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+
+</body>
+</html>
